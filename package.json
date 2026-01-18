@@ -1,0 +1,20 @@
+{
+  "name": "smart-route-optimizer",
+  "version": "1.0.0",
+  "description": "A route optimization application using Dijkstra's algorithm with traffic awareness",
+  "main": "app/main.py",
+  "scripts": {
+    "dev": "http-server frontend -p 8080 -c-1 -o",
+    "server": "http-server frontend -p 8080 -c-1"
+  },
+  "keywords": [
+    "routing",
+    "dijkstra",
+    "optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
